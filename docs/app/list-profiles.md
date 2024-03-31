@@ -19,8 +19,8 @@ Bearer token required.
     "data": [
         {
             "phone": "263775123456",
-            "first_name": "Joe",
-            "last_name": "Mags",
+            "first_name": "John",
+            "last_name": "Doe",
             "dob": "27/12/1990",
             "id_number": "12-1885994X55",
             "email": null,
