@@ -18,6 +18,9 @@ Bearer token required.
 |---------|----------|----------|--------------------------------------------------|
 | `phone` | `string` | Yes      | The user's phone number to resend the user number to. |
 
+### NOTE
+- The `phone` parameter should be in E.164 format (e.g., '263771234567') without the leading '+' or '00'.
+
 **Example Result:**
 
 ```json

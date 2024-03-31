@@ -3,6 +3,9 @@
 
 This endpoint allows an authenticated app to delete a user profile that belongs to the app.
 
+### NOTE
+- The `phone` parameter should be in E.164 format (e.g., '263771234567') without the leading '+' or '00'.
+
 ### Request
 
 **Method:** `DELETE`

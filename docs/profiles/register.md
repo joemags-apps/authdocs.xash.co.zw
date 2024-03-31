@@ -21,6 +21,10 @@ Bearer token required.
 | `dob`       | `string` | Yes      | The user's date of birth in the format `d/m/Y`. The user must be at least 11 years old. |
 | `email`     | `string` | No       | The user's email address, must be a valid email and unique in the system. |
 
+
+### NOTE
+- The `phone` parameter should be in E.164 format (e.g., '263771234567') without the leading '+' or '00'.
+
 **Example Result:**
 
 ```json
