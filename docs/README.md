@@ -1,10 +1,10 @@
-# Authdocs.xash.co.zw
+# Auth Platform
 
 This is the documentation site for the Xash Authentication API. The API allows you to authenticate users and manage their profiles and associated data.
 
 ## Getting Started
 
-To get started with the API, you'll need to create an app and obtain an API key. Follow the instructions in the [Register](register/index.md) section to create your app and generate an API key.
+To get started with the API, you'll need to create an app and obtain an API key. Follow the instructions in the [Register](profiles/index.md) section to create your app and generate an API key.
 
 ## API Documentation
 
