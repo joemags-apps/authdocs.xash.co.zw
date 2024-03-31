@@ -6,6 +6,10 @@
 
 **Path:** `/api/v1/app/profiles`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:** None
 
 **Example Result:**

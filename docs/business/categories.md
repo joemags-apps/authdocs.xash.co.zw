@@ -6,6 +6,10 @@
 
 **Path:** `/api/v1/app/business/categories`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:** None
 
 **Example Result:**

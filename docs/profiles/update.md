@@ -8,6 +8,10 @@ This endpoint allows an authenticated app to update a user profile that belongs 
 
 **Path:** `/api/v1/app/profiles/{phone}`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name        | Type     | Required | Description                                                |

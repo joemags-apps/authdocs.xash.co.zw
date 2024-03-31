@@ -6,6 +6,10 @@
 
 **Path:** `/api/v1/app/profiles/set-password`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name         | Type     | Required | Description                                                |

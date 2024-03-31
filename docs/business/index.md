@@ -13,6 +13,10 @@ The Business Management functionality allows authenticated apps to manage busine
 
 **Path:** `/api/v1/app/business/categories`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:** None
 
 **Example Result:**
@@ -46,6 +50,10 @@ The Business Management functionality allows authenticated apps to manage busine
 **Method:** `GET`
 
 **Path:** `/api/v1/app/business/{profile}`
+
+**Authorization:**
+
+Bearer token required.
 
 **Parameters:**
 
@@ -95,6 +103,10 @@ The Business Management functionality allows authenticated apps to manage busine
 **Method:** `POST`
 
 **Path:** `/api/v1/app/business/{profile}`
+
+**Authorization:**
+
+Bearer token required.
 
 **Parameters:**
 
@@ -153,6 +165,10 @@ The Business Management functionality allows authenticated apps to manage busine
 **Method:** `PATCH`
 
 **Path:** `/api/v1/app/business/{business}`
+
+**Authorization:**
+
+Bearer token required.
 
 **Parameters:**
 

@@ -7,6 +7,10 @@
 
 **Path:** `/api/v1/app/business/{business}`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name                     | Type     | Required | Description                                     |

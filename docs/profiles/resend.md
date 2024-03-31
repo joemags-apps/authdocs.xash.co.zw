@@ -8,6 +8,10 @@ This endpoint allows an authenticated app to resend the user's number to them vi
 
 **Path:** `/api/v1/app/profiles/resend/{phone}`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name    | Type     | Required | Description                                      |

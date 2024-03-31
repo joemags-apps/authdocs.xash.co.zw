@@ -13,6 +13,10 @@ The Profile Registration process allows users to create a new profile in the sys
 
 **Path:** `/api/v1/app/profiles`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name        | Type     | Required | Description                                                |
@@ -66,6 +70,10 @@ This endpoint allows an authenticated app to resend the user's number to them vi
 
 **Path:** `/api/v1/app/profiles/resend/{phone}`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name    | Type     | Required | Description                                      |
@@ -101,6 +109,10 @@ This endpoint allows an authenticated app to resend the user's number to them vi
 **Method:** `POST`
 
 **Path:** `/api/v1/app/profiles/set-password`
+
+**Authorization:**
+
+Bearer token required.
 
 **Parameters:**
 
@@ -155,6 +167,10 @@ This endpoint allows an authenticated app to update a user profile that belongs 
 
 **Path:** `/api/v1/app/profiles/{phone}`
 
+**Authorization:**
+
+Bearer token required.
+
 **Parameters:**
 
 | Name        | Type     | Required | Description                                                |
@@ -207,6 +223,10 @@ This endpoint allows an authenticated app to delete a user profile that belongs 
 **Method:** `DELETE`
 
 **Path:** `/api/v1/app/profiles/{phone}`
+
+**Authorization:**
+
+Bearer token required.
 
 **Parameters:**
 
