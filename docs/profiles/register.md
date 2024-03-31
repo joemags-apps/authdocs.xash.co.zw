@@ -14,16 +14,12 @@ Bearer token required.
 
 | Name        | Type     | Required | Description                                                |
 |-------------|----------|----------|--------------------------------------------------------------|
-| `phone`     | `string` | Yes      | The user's phone number, must be a valid Zimbabwean phone number and unique in the system. |
+| `phone`     | `string` | Yes      | The user's phone number, must be a valid phone number in E.164 format, should start with (+) if it's not a zim number and unique in the system. |
 | `first_name`| `string` | Yes      | The user's first name, maximum length of 255 characters.   |
 | `last_name` | `string` | Yes      | The user's last name, maximum length of 255 characters.    |
 | `id_number` | `string` | Yes      | The user's national ID number, must be unique in the system. |
 | `dob`       | `string` | Yes      | The user's date of birth in the format `d/m/Y`. The user must be at least 11 years old. |
 | `email`     | `string` | No       | The user's email address, must be a valid email and unique in the system. |
-
-
-### NOTE
-- The `phone` parameter should be in E.164 format (e.g., '263771234567') without the leading '+' or '00'.
 
 **Example Result:**
 
@@ -54,5 +50,3 @@ Bearer token required.
 **Notes:**
 
 - The user's phone number is sent to them via WhatsApp after the profile is created successfully.
-- The `validate_phone` and `zw_unique_profiles` validation rules are custom rules specific to this application.
-
