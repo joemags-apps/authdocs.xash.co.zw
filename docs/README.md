@@ -21,4 +21,4 @@ If you find any issues or have suggestions for improvements, please open an issu
 
 ## License
 
-This project is licensed under the [PRIVATE LICENSE](LICENSE).
+This project is licensed under the [PRIV. LICENSE](LICENSE).
