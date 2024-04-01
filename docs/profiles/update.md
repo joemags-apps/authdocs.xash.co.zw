@@ -7,6 +7,8 @@ This endpoint allows an authenticated app to update a user profile that belongs 
 **Method:** `PUT`
 
 **Path:** `/api/v1/app/profiles/{phone}`
+The user's phone number in E.164 format without the leading '+' or '00'.
+
 
 **Authorization:**
 
@@ -16,7 +18,6 @@ Bearer token required.
 
 | Name        | Type     | Required | Description                                                |
 |-------------|----------|----------|--------------------------------------------------------------|
-| `phone`     | `string` | Yes      | The user's phone number in E.164 format without the leading '+' or '00'. |
 | `first_name`| `string` | No       | The updated first name of the user.                       |
 | `last_name` | `string` | No       | The updated last name of the user.                        |
 | `id_number` | `string` | No       | The updated national ID number of the user.              |

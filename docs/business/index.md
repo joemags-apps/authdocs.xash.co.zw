@@ -49,7 +49,7 @@ Bearer token required.
 
 **Method:** `GET`
 
-**Path:** `/api/v1/app/business/{profile}`
+**Path:** `/api/v1/app/business/{phone}`
 
 **Authorization:**
 
@@ -102,7 +102,7 @@ Bearer token required.
 
 **Method:** `POST`
 
-**Path:** `/api/v1/app/business/{profile}`
+**Path:** `/api/v1/app/business/{phone}`
 
 **Authorization:**
 
