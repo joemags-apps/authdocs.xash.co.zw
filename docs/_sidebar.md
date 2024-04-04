@@ -3,6 +3,7 @@
   - [Register Profile](profiles/register.md)
   - [Set Password](profiles/set-password.md)
   - [Resend User Number](profiles/resend.md)
+  - [Authenticate User](profiles/authenticate.md)
   - [Update Profile](profiles/update.md)
   - [Delete Profile](profiles/delete.md)
 - [Business](business/index.md)
