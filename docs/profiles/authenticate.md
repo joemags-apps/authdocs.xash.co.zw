@@ -39,11 +39,10 @@ Bearer token required.
 
 **Errors:**
 
-- `401 Unauthorized` - If the provided user number or password is invalid.
 - `404 Not Found` - If the provided user number is not found in the system.
 
 **Notes:**
 
 - This endpoint authenticates the user using the provided user number and password.
-- Upon successful authentication, a new token is generated for the user, and all other existing tokens are invalidated.
+- Upon successful authentication, success message is returned.
 - The response includes the authenticated user's profile data, such as phone number, name, ID number, and date of birth.
